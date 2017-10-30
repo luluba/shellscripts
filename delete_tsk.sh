@@ -3,4 +3,4 @@
 DIR=/home/mandy/workspace
 OUTPUT=$DIR/scripts/log/tsk.txt
 date >> $OUTPUT
-find $DIR -name *.tsk -print -delete >> $OUTPUT
+find $DIR -name *.tsk -delete
